@@ -1,0 +1,9 @@
+.bod{
+    text-align: center;
+    /* width: 300px; */
+    border: 5px solid green;
+    padding: 10px;
+    margin: 270px;
+    font-weight: bold;
+    border-radius: 25px;
+}

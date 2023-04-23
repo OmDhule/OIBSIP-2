@@ -1,0 +1,15 @@
+<div class="bod">
+<h1 style="font-style: italic; text-decoration: underline;">Degree to Celsius Converter</h1>
+<form>
+  <label>Enter Temperature:</label>&nbsp;
+  <input type="number" [(ngModel)]="degree" name="degree">
+  &nbsp;&nbsp;&nbsp;TYPE:<select #temp>
+    <option>Celcius</option>
+    <option>Farenheit</option>
+    </select>
+    <br>
+    <br>
+  <button (click)="convert(temp.value)" style="font-weight: bold;">Convert</button>
+</form>
+RESULT in {{status}}: {{temper}}
+</div>
